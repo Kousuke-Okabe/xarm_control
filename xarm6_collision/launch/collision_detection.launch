@@ -1,5 +1,5 @@
 <launch>
-    <rosparam file="$(find collision_detection)/config/collision_detection.yaml" command="load"/>
+    <rosparam file="$(find xarm6_collision)/config/collision_detection.yaml" command="load"/>
 
     <node
         name="collision_detection"

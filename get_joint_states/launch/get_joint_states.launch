@@ -1,0 +1,19 @@
+<launch>
+<!-- <group np="collision_detection"> -->
+    <node
+        name="teleop"
+        pkg="teleop_key"
+        type="teleop_key"
+        respawn="false"
+        output="log"
+    />
+
+    <node
+        name="get_joint_states"
+        pkg="get_joint_states"
+        type="get_joint_states"
+        respawn="false"
+        output="screen"
+    />
+<!-- </group> -->
+</launch>
